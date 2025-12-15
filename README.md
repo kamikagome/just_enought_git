@@ -12,11 +12,6 @@ Based on this YouTube tutorial: [Pre-commit Hooks Tutorial](https://www.youtube.
 
 ## Getting Started
 
-### Prerequisites
-
-- Python 3.x
-- Git
-
 ### Installation
 
 1. Install pre-commit:
@@ -29,7 +24,7 @@ python3 -m pip install pre-commit
 
 ```bash
 pre-commit --version
-# pre-commit 3.5.0
+# pre-commit 4.3.0
 ```
 
 3. Install the git hook scripts:
@@ -118,13 +113,6 @@ git push
 1. **Local Development**: When you run `git commit`, pre-commit automatically runs the configured hooks on staged files
 2. **CI/CD**: GitHub Actions runs the same checks on every push and pull request
 3. **Consistency**: Ensures code quality standards are maintained across all contributions
-
-## Learning Outcomes
-
-- Understanding pre-commit hooks and their purpose
-- Setting up automated code quality checks
-- Integrating pre-commit with GitHub Actions
-- Maintaining consistent code standards across a project
 
 ## Resources
 
